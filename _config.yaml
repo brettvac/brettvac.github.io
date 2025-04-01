@@ -1,17 +1,16 @@
-title: 
-# Google Analytics 4
-analytics:
-  measurement_id: "G-XXXXXXXXXX"  
-
-theme: "jekyll-theme-midnight"
-
-# Author info
+title: Free Joomla! extensions
+description: >-
+Joomla! is an awesome CMS, but some extensions are needed to make it easier for a niche site. 
+This is my attempt at filling that gap, because we need to catch up to WordPress.
+baseurl: ""
+github_username: brettvac
 author:
   name: "Brett Vachon"
-analytics:
-  measurement_id: "G-XXXXXXXXXX"  
 
-# Plugins (if using any plugins)
+analytics:
+  measurement_id: "G-DP5DG417G7"  
+  
+theme: "jekyll-theme-midnight"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
