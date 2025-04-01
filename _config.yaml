@@ -10,8 +10,7 @@ author:
 analytics:
   measurement_id: "G-DP5DG417G7"  
   
-theme: "jekyll-theme-midnight"
+theme: "jekyll-theme-architect"
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
