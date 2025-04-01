@@ -1,0 +1,18 @@
+# Google Analytics 4
+analytics:
+  measurement_id: "G-XXXXXXXXXX"  
+
+
+theme: "jekyll-theme-slate"
+
+# Author info
+author:
+  name: "Brett Vachon"
+analytics:
+  measurement_id: "G-XXXXXXXXXX"  
+
+# Plugins (if using any plugins)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
