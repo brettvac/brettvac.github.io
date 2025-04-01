@@ -3,8 +3,7 @@ title:
 analytics:
   measurement_id: "G-XXXXXXXXXX"  
 
-
-theme: "jekyll-theme-slate"
+theme: "jekyll-theme-midnight"
 
 # Author info
 author:
