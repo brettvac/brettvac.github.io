@@ -1,4 +1,4 @@
-title: "Free Joomla! extensions"
+title: "Free Joomla! Extensions"
 description: "Joomla! is an awesome CMS, but some extensions are needed to make it easier for a niche site. This is my attempt at filling that gap, because we need to catch up to WordPress."
 baseurl: ""
 github_username: brettvac
@@ -6,10 +6,8 @@ author:
   name: "Brett Vachon"
 
 google_analytics: "G-DP5DG417G7"
-analytics:
-  measurement_id: "G-DP5DG417G7"  
   
-theme: "jekyll-theme-architect"
+theme: "jekyll-theme-cayman"
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
