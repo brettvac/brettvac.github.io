@@ -1,5 +1,7 @@
 title: "Free Joomla! Extensions"
-description: "Joomla! is an awesome CMS, but some extensions are needed to make it easier for a niche site. This is my attempt at filling that gap, because we need to catch up to WordPress."
+description: >-
+Joomla! is an awesome CMS, but some extensions are needed to make it easier for a niche site. 
+This is my attempt at filling that gap, because we need to catch up to WordPress.
 baseurl: ""
 github_username: brettvac
 author:
