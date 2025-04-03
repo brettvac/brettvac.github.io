@@ -1,7 +1,5 @@
-title: "Free Joomla! Extensions"
-description: >-
-Joomla! is an awesome CMS, but some extensions are needed to make it easier for a niche site. 
-This is my attempt at filling that gap, because we need to catch up to WordPress.
+title: Free Joomla! Extensions
+description: Making life easier for a niche/money site creator
 baseurl: ""
 github_username: brettvac
 author:
@@ -9,7 +7,7 @@ author:
 
 google_analytics: "G-DP5DG417G7"
   
-theme: "jekyll-theme-cayman"
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
