@@ -2,7 +2,7 @@
 
 Joomla! is a powerful CMS, but too often, [I](https://brettvachon.com) found the need to write custom code for simple features.
 
-I've decided to vibe-code extensions and plugins to eliminate this frustration and improve website maintenance.
+Now I'm creating extensions to eliminate this frustration and just make my life easier.
 
 ### [Dropbox Embed Content Plugin](Dropboxembed)
 
