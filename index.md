@@ -8,7 +8,7 @@ Now I'm creating extensions to eliminate this frustration and just make my life 
 
 Embed your Dropbox files and folders into your Joomla site using a simple shortcode and the power of the Dropbox Embedder, without fiddling with HTML code.
 
-### [Lite VId Embed Content Plugin](Litevidembed)
+### [Lite Vid Embed Content Plugin](Litevidembed)
 
 Speed up loading of pages that contain YouTube or Vimeo videos, using façades
 
