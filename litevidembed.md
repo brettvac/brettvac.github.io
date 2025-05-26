@@ -1,6 +1,6 @@
 ---
 layout: default
-description: Lite Vid Embed plugin for displaying façades (fast loading) of Vimeo and/or YouTube videos
+description: Display façades (fast loading) of Vimeo and/or YouTube videos in Joomla!
 ---
 
 # Lite Vid Embed - Joomla! Content Plugin
