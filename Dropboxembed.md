@@ -2,11 +2,6 @@
 layout: page
 title: Dropbox Embed Plugin
 permalink: "https://naftee.com/Dropboxembed"
-baseurl: ""
-author:
-  name: "Brett Vachon"
-google_analytics: "G-DP5DG417G7" 
-theme: jekyll-theme-cayman
 ---
 
 Dropbox Embed - Joomla! Content Plugin
