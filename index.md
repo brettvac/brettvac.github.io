@@ -7,7 +7,7 @@ ___
 ### [Dropbox Embed Content Plugin](./dropboxembed.html)
 Embed your Dropbox files and folders into your Joomla site using a simple shortcode and the power of the Dropbox Embedder, without fiddling with HTML code.
 
-### [Hikashop User Group Plugin](hikashop-user-group)
+### [Hikashop User Group Plugin](./hikashop-user-group.html)
 Add a user to a Joomla! group upon purchase with Hikashop
 
 ### [Lite Vid Embed Content Plugin](Litevidembed)
