@@ -19,5 +19,5 @@ Display a signup form for Mailchimp that includes tripwire functionality.
 ### [TF Learnpath Module](./tflearnpath.html)
 Display course content from the TF Learn component by Joomla Fry inside a module.
 
-### [Xchimp2 User Plugin](Xchimp2)
+### [Xchimp2 User Plugin](./xchimp2.html)
 Send user information to Mailchimp upon Joomla! user save.
