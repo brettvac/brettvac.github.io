@@ -4,7 +4,7 @@ Joomla! is a powerful CMS, but too often, [I](https://brettvachon.com) found the
 
 Now I'm creating extensions to eliminate this frustration and just make my life easier.
 ___
-### [Dropbox Embed Content Plugin](Dropboxembed)
+### [Dropbox Embed Content Plugin](./dropboxembed.html)
 Embed your Dropbox files and folders into your Joomla site using a simple shortcode and the power of the Dropbox Embedder, without fiddling with HTML code.
 
 ### [Hikashop User Group Plugin](hikashop-user-group)
