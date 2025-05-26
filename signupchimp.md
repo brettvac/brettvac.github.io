@@ -1,3 +1,8 @@
+---
+layout:default
+description: Display a MailChimp signup form on your website which submits with AJAX
+---
+
 # Sign Up Chimp
 ![Sign Up Chimp Logo](Sign-Up-Chimp.jpg)
 A Joomla! module for displaying a MailChimp signup form on your website which submits with AJAX.
