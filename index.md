@@ -16,7 +16,7 @@ Embed YouTube or Vimeo videos in your content using shortcodes which display eff
 ### [Sign Up Chimp module](./signupchimp.html)
 Display a signup form for Mailchimp that includes tripwire functionality.
 
-### [TF Learnpath Module](TfLearnpath)
+### [TF Learnpath Module](./tflearnpath.html)
 Display course content from the TF Learn component by Joomla Fry inside a module.
 
 ### [Xchimp2 User Plugin](Xchimp2)
