@@ -1,3 +1,8 @@
+---
+layout: default
+description: Hikashop plugin to change the user's group after purchasing a product
+---
+
 # Hikashop User Group Plugin
 
 This plugin enables you to change the group of a user after purchasing a product in Hikashop Starter. 
