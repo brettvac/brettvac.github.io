@@ -1,3 +1,18 @@
+---
+layout: page
+title: Free Joomla! Extensions
+description: Making life easier for a niche/money site creator
+url: "https://naftee.com"
+baseurl: ""
+github_username: brettvac
+author:
+  name: "Brett Vachon"
+google_analytics: "G-DP5DG417G7" 
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+---
 Dropbox Embed - Joomla! Content Plugin
 =============
 
