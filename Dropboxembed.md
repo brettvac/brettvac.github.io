@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Dropbox Embed Plugin
 permalink: "https://naftee.com/Dropboxembed"
 ---
