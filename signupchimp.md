@@ -1,5 +1,5 @@
 ---
-layout:default
+layout: default
 description: Display a MailChimp signup form on your website which submits with AJAX
 ---
 
