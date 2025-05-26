@@ -50,6 +50,23 @@ Use any of the following video IDs in your shortcodes.
 ## Requirements
 This plugin requires Joomla versions greater than 4.4 and PHP 8.1.
 
+## FAQ
+**Q:Can I use this plugin to load dailymotion videos?**  
+**A:** No; only YouTube and Vimeo videos are supported at this time.
+
+**Q:Can I use this plugin without a YouTube account?**  
+**A:** Yes, you can embed any YouTube video you want.
+
+**Q: This plugin is awesome! Can I send a donation?**  
+**A:** Sure! Send your cryptonation to the following wallets:
+
+`BTC 1PXWZJcBfehqgV25zWdVDS6RF2yVMxFkZD`
+
+`Eth 0xC9b695D4712645Ba178B4316154621B284e2783D`
+
+**Q: Got any more awesome Joomla! plugins?**  
+**A:** Find them [right here](https://naftee.com)
+
 Contributing
 ------------
 - **[Lite Youtube Embed](https://github.com/paulirish/lite-youtube-embed)** by Paul Irish
