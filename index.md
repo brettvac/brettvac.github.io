@@ -13,7 +13,7 @@ Add a user to a Joomla! group upon purchase with Hikashop
 ### [Lite Vid Embed Content Plugin](Litevidembed)
 Embed YouTube or Vimeo videos in your content using shortcodes which display efficiently as façades for faster loading.
 
-### [Sign Up Chimp module](Signupchimp)
+### [Sign Up Chimp module](./signupchimp.html)
 Display a signup form for Mailchimp that includes tripwire functionality.
 
 ### [TF Learnpath Module](TfLearnpath)
