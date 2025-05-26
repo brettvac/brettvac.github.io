@@ -2,7 +2,7 @@
 layout: page
 title: Free Joomla! Extensions
 description: Making life easier for a niche/money site creator
-url: "https://naftee.com"
+url: "https://naftee.com/Dropboxembed"
 baseurl: ""
 github_username: brettvac
 author:
