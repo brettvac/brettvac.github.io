@@ -2,7 +2,6 @@
 layout: default
 title: Dropbox Embed Plugin
 description: Dropbox Embed is a Joomla! plugin that allows you to embed Dropbox files and folders into your Joomla! website using a simple shortcode.
-permalink: "https://naftee.com/Dropboxembed"
 ---
 
 Dropbox Embed - Joomla! Content Plugin
