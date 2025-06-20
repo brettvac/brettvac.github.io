@@ -1,8 +1,8 @@
 ## Free Joomla! Plugins and Modules
 
-Joomla! is a powerful CMS, but too often, [I](https://brettvachon.com) found the need to write custom code for simple features.
+Joomla! is a powerful CMS, but too often, [I](https://brettvachon.com) found the need to write custom code for simple features. Now I'm creating extensions to eliminate this frustration and just make my life easier. 
 
-Now I'm creating extensions to eliminate this frustration and just make my life easier.
+So check out these amazing and free Joomla! 4/5 components, modules & plugins that hopefully inspire you to vibe-code extensions of your own.
 ___
 ### [Dropbox Embed Content Plugin](./dropboxembed.html)
 Embed your Dropbox files and folders into your Joomla site using a simple shortcode and the power of the Dropbox Embedder, without fiddling with HTML code.
@@ -15,6 +15,9 @@ Embed YouTube or Vimeo videos in your content using shortcodes which display eff
 
 ### [Sign Up Chimp module](./signupchimp.html)
 Display a signup form for Mailchimp that includes tripwire functionality.
+
+### [Slide Out Box Module](./slideoutbox.html)
+Display a customizable slideout box that appears when users scroll to a specified page depth.
 
 ### [TF Learnpath Module](./tflearnpath.html)
 Display course content from the TF Learn component by Joomla Fry inside a module.
