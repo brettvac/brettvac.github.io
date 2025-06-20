@@ -1,3 +1,8 @@
+---
+layout: default
+description: Display a customizable slideout box that appears when users scroll to a specified page depth.
+---
+
 # Slideoutbox
 ![Slideoutbox Logo](Slideoutbox.jpg)
 Want to engage your website visitors with a call-to-action or promotional content? 
@@ -25,6 +30,16 @@ No external accounts or APIs are needed, just a Joomla installation.
 ## FAQ
 **Q: Can I display multiple slideout boxes on one page?**  
 **A:** Currently, the module supports one slideout per page. Multi-instance support may be added in a future update.
+
+**Q: This plugin is awesome! Can I send a donation?**  
+**A:** Sure! Send your cryptonation to the following wallets:
+
+`BTC 1PXWZJcBfehqgV25zWdVDS6RF2yVMxFkZD`
+
+`Eth 0xC9b695D4712645Ba178B4316154621B284e2783D`
+
+**Q: Got any more awesome Joomla! plugins?**  
+**A:** Find them [right here](https://naftee.com)
 
 **Q: Why is the module ID used in the cookie name?**  
 **A:** The module ID ensures unique cookies (e.g., `mod_slideoutbox_closed_<moduleId>`) to avoid conflicts, even for a single instance.
