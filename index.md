@@ -1,4 +1,4 @@
-## Free Joomla! Plugins and Modules
+## Free Extensions For Joomla! Versions 4 & Up
 
 Joomla! is a powerful CMS, but too often, [I](https://brettvachon.com) found the need to write custom code for simple features. Now I'm creating extensions to eliminate this frustration and just make my life easier. 
 
@@ -12,6 +12,9 @@ Add a user to a Joomla! group upon purchase with Hikashop
 
 ### [Lite Vid Embed Content Plugin](./litevidembed.html)
 Embed YouTube or Vimeo videos in your content using shortcodes which display efficiently as façades for faster loading.
+
+### [Redirectfixer Component](./redirectfixer.html)
+Automatically scan and update internal links inside Joomla! articles based on your site's redirects.
 
 ### [Sign Up Chimp module](./signupchimp.html)
 Display a signup form for Mailchimp that includes tripwire functionality.
