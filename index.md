@@ -3,7 +3,7 @@
 Joomla! is a powerful CMS, but too often, [I](https://brettvachon.com) found the need to write custom code for simple features. Now I'm creating extensions to eliminate this frustration and just make my life easier. 
 
 So check out these amazing and free Joomla! 4/5 components, modules & plugins that hopefully inspire you to vibe-code extensions of your own.
-***
+
 ### [Dropbox Embed Content Plugin](./dropboxembed.html)
 Embed your Dropbox files and folders into your Joomla site using a simple shortcode and the power of the Dropbox Embedder, without fiddling with HTML code.
 
