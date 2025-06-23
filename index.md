@@ -10,6 +10,9 @@ Embed your Dropbox files and folders into your Joomla site using a simple shortc
 ### [Hikashop User Group Plugin](./hikashop-user-group.html)
 Add a user to a Joomla! group upon purchase with Hikashop
 
+### [Imagelinker Component](./imagelinker.html)
+Scan for unlinked images by matching them to files in the media folder and display them with option to delete.
+
 ### [Lite Vid Embed Content Plugin](./litevidembed.html)
 Embed YouTube or Vimeo videos in your content using shortcodes which display efficiently as façades for faster loading.
 
