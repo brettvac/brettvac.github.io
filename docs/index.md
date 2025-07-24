@@ -20,7 +20,7 @@ Embed YouTube or Vimeo videos in your content using shortcodes which display eff
 Automatically scan and update internal links inside Joomla! articles based on your site's redirects.
 
 ### [Sign Up Chimp module](./signupchimp.html)
-Display a signup form for Mailchimp that includes tripwire functionality.
+Display a signup form for Mailchimp that includes [tripwire functionality to easily set up a sales funnel](https://naftee.com/create-joomla-tripwire-page.html).
 
 ### [Slide Out Box Module](./slideoutbox.html)
 Display a customizable slideout box that appears when users scroll to a specified page depth.
