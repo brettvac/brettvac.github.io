@@ -20,21 +20,21 @@ When you install and configure **TF Learnpath**, it provides a visual representa
 
 ## Requirements
 
-- **Joomla Version:** Joomla 4.x or 5.x (for the most recent version of TF Learn)
-- **TF Learn Component:** You should have already installed [TF Learn](https://joomlafry.com/joomla-extensions/learn-joomla-extension) and added some courses, modules and lessons.
+- **TF Learn Component:** You should have already installed [TF Learn](https://joomlafry.com/joomla-extensions/learn-joomla-extension) and added some courses, modules and lessons, otherwise I'm not sure why you want to install this module.
 - **TF Library:** Requires the [Tech Fry Library](https://labs.joomlafry.com/downloads/techfry.zip) to work.
-- **PHP Version:** PHP 7.4 or higher.
 
 ## Installation
 
 1. **Download or install the Module with this URL**
-   - Install via Joomla’s Extension Manager (`Extensions > Manage > Install`) the latest release [from this link](https://github.com/brettvac/TFLearnpath/releases/download/1.0/tflearnpath.zip).
+   - Install via Joomla’s Extension Manager (`Extensions > Manage > Install`) the latest release from this link: [https://github.com/brettvac/TFLearnpath/releases/latest/download/mod_tflearnpath.zip](https://github.com/brettvac/TFLearnpath/releases/latest/download/mod_tflearnpath.zip).
    - The module will check for the TechFry Library during installation and prompt you if it’s missing.
 
 2. **Enable the Module:**
    - Go to `Extensions > Modules`.
    - Search for "TF Learnpath" and click to edit.
-   - Set the status to "Published" and assign it to the desired position and menu items.
+   - Add your course to display and desired layout.
+   - Set the status to "Published" 
+   - Assign the module to the desired position and menu items.
 
 ## Module Parameters
 
@@ -50,7 +50,7 @@ When you install and configure **TF Learnpath**, it provides a visual representa
 ### Example Setup
 
 1. Create a course in `com_tflearn` with modules and lessons.
-2. In the module settings:
+2. In the TF Learnpath module settings:
    - Set `Course ID` to your course’s ID.
    - Choose `accordion` layout.
    - Assign the module to a position (e.g., `sidebar-right`) and a menu item.
@@ -58,8 +58,8 @@ When you install and configure **TF Learnpath**, it provides a visual representa
 
 ## Features
 
-- **Frontend Display:** The module shows the course title, followed by sections (modules) and their lessons. Lessons are linked to their respective pages in `com_tflearn` if accessible.
-- **Access Restrictions:** If a user isn’t enrolled, restricted lessons show a lock icon and message.
+- **Frontend Display:** The module shows the course title, followed by sections (modules) and their lessons. Lessons are linked to their respective pages in `com_tflearn` if accessible based on the course completion requirements.
+- **Access Restrictions:** If a user hasn't completed the previous lesson, restricted lessons show a lock icon and message.
 - **Customization:** Add custom CSS to style the `.tflearn-path` container, icons, or layout elements.
 
 ## Contributions
@@ -67,11 +67,11 @@ When you install and configure **TF Learnpath**, it provides a visual representa
 
 ## FAQ
 
-**Q: Can I use Podia instead?**  
+**Q: Can I use Podia instead of TF Learn to host my courses?**  
 **A:** I guess so! I've never used that platform.  
 
-**Q:  Can I use TF Learn(path) with Joomla! 3?**
-**A:** No, TF Learn only works with Joomla! versions 4 and later. 
+**Q:  Can I use TF Learn(path) with Joomla! 4?**
+**A:** No, TF Learn only works with Joomla! versions 5 and later, so the latest release only works with Joomla! 5 and up. 
 
 **Q: This plugin is awesome! Can I send a donation?**  
 **A:** Sure! Send your cryptonation to the following wallets:
