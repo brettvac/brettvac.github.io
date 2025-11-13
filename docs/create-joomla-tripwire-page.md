@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: articles
 title: How To Create A Tripwire Funnel In Joomla!
 description: Here's a quick way to create a tripwire sales funnel inside Joomla! CMS
 ---
