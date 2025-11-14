@@ -11,7 +11,7 @@ Are you struggling with outdated or broken internal links in your Joomla! articl
 The Redirect Fixer Administrator component scans your article content, identifies URLs that match your site's published redirects, and allows you to easily update them to the new, correct destinations, ensuring your content always points to the right place.
 
 ## How To Use Redirect Fixer Component
-1.  **Install the component** via the Joomla! Extensions Manager. You can install via URL by using this URL: [https://github.com/brettvac/redirectfixer/releases/download/1.0/com_redirectfixer](https://github.com/brettvac/redirectfixer/releases/download/1.0/com_redirectfixer)
+1.  **Install the component** via the Joomla! Extensions Manager. You can install the latest version by using this URL: [https://github.com/brettvac/redirectfixer/releases/latest/download/com_redirectfixer.zip](https://github.com/brettvac/redirectfixer/releases/latest/download/com_redirectfixer.zip)
 2.  Navigate to **Components > Redirect Fixer** in the Joomla! administrator.
 3.  Click **"Scan for Affected Articles"** to analyze your article content against your configured redirects.
 4.  Select the specific links you wish to update and click **"Fix Selected Articles"** or **"Fix All Articles"** to apply the changes to your content.
@@ -41,4 +41,5 @@ This component works with Joomla! versions **4.0 or later** and requires **PHP 7
 `Eth 0xC9b695D4712645Ba178B4316154621B284e2783D`
 
 **Q: Got any more awesome Joomla! extensions?**  
+
 **A:** Find them [right here](https://naftee.com)
