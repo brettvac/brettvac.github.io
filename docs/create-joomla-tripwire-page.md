@@ -58,9 +58,11 @@ You'll need to keep note of the name of your menu item for the next step.
 
 To actually collect the e-mail addresses and send your unwitting user to your \$19.99 offer, you'll need some sort of mechanism to capture the e-mails, and redirect them to your sales page.
 
-Luckily, with Joomla!, this is a piece of cake with the [Sign Up Chimp Module](https://naftee.com/signupchimp.html).
+Luckily, with Joomla!, this is a piece of cake with the <a href="https://github.com/brettvac/Signupchimp" target="_blank">Sign Up Chimp Module</a>.
 
-Install the latest version of the [Sign Up Chimp Module](https://naftee.com/signupchimp.html) by going to Extensions: Install
+#### Using The Sign Up Chimp Module
+
+Install the latest version of the Sign Up Chimp Module by going to Extensions: Install and using this URL: [https://github.com/brettvac/signupchimp/releases/latest/download/mod_signupchimp.zip](https://github.com/brettvac/signupchimp/releases/latest/download/mod_signupchimp.zip).
 
 ![Install the Sign Up Chimp Module](/brettvac.github.io/assets/Sign-up-chimp-installation.png)
 
