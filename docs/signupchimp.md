@@ -18,7 +18,7 @@ After installing Sign Up Chimp, you will be able to display a highly customizabl
 You will not find a more elegant and easy-to-use MailChimp Joomla! extension on the Web.
 
 ## How To Use Sign Up Chimp
-1. Install the module via the Joomla! Extensions Manager. You can install via URL by using this URL:  [https://github.com/brettvac/signupchimp/releases/download/1.2/mod_signupchimp.zip](https://github.com/brettvac/signupchimp/releases/download/1.2/mod_signupchimp.zip)  
+1. Install the module via the Joomla! Extensions Manager. You can install the latest release by using this URL:  [https://github.com/brettvac/signupchimp/releases/latest/download/mod_signupchimp.zip](https://github.com/brettvac/signupchimp/releases/latest/download/mod_signupchimp.zip)  
 2. Navigate to Extensions > Modules and find "Sign Up Chimp".
 3. Configure the module settings, including MailChimp API key and list ID. If you want to display a tripwire offer, set the menu item and the delay before redirect.
 4. Publish the module in your desired position. Users can now enter their email and first name to subscribe directly from your website.
@@ -26,7 +26,7 @@ You will not find a more elegant and easy-to-use MailChimp Joomla! extension on 
 ## Features
 - **AJAX Signup** Uses an AJAX-powered form to send subscription data to MailChimp without reloading the page. 
 - **Custom CSS Classes** Stylize your form to your heart's content by adding classes to the form elements
-- **Error Handling** Displays success or failure messages dynamically.
+- **Error Handling** Displays success or failure messages directly on the form.
 - **Redirect Option**: Option to redirect users to a tripwire page after successful signup.
 
 ## Requirements
@@ -52,3 +52,4 @@ You will need a MailChimp account and an API key. [Read about API keys here](htt
 
 ## Credits
 - **MailChimp API v3 wrapper** by [Drew McLellan](https://github.com/drewm) (MIT License)
+
