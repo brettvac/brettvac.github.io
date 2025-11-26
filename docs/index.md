@@ -1,6 +1,6 @@
 ## Free Extensions For Joomla! Versions 4 & Up
 
-Joomla! is a powerful CMS, but too often, [I](https://brettvachon.com) found the need to write custom code for simple features. Now I'm creating extensions to eliminate this frustration and just make my life easier. 
+Joomla! is a powerful CMS, but too often, <a href="https://brettvachon.com" target="_blank" rel="dofollow">I</a> found the need to write custom code for simple features. Now I'm creating extensions to eliminate this frustration and just make my life easier. 
 
 So check out these amazing and free Joomla! 4/5 components, modules & plugins that hopefully inspire you to (mostly vibe) code extensions of your own without the [fear](https://naftee.com/list-of-phobias.html) of breaking your site.
 
