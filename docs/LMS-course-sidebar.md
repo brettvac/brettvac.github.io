@@ -10,6 +10,8 @@ If you don’t have an audience of **thousands** of raving followers, you may no
 
 Every creator knows that feeling when they look at their monthly bills. It almost feels like you’re renting your empire. Platforms like ClickFunnels and Kajabi are shiny—sure, they promise you the moon and the stars. But at the end of the day? You’re just a tenant on their land. The rent is high, and if you stop paying, your school vanishes into thin air. 
 
+![A ridiculous pricing plan](https://upload.wikimedia.org/wikipedia/commons/7/70/Price.png "Image from Wikipedia")
+
 I wanted to own the ground I walked on—and to be honest, it took me a while to come to the conclusion that your moat around your business extends to the platform that you build it on.
 ## How I Got Here
 You see—when I started selling courses on Udemy, I realized I was caught in a digital cage. 
@@ -54,6 +56,8 @@ That was the dream... a sidebar on the right, showing every module and lesson, c
 So, I decided to go rogue. I realized the only way out was to fight fire with fire.
 
 I dove deep into the component code, followed the Joomla module tutorial, and began creating a module with the sole purpose of showing the course dashboard. Since Joomla\! doesn't offer a native way to show the output of a component in a module position, the only alternative was to create a module that did the job itself. So, one afternoon as I was sitting on the bench of the municipal pool—as my kids were splashing around in the water with their mother whilst under the watchful eyes of the lifeguard—I I**vibe coded**. 
+
+![A very classic vibe coder](/brettvac.github.io/assets/vibe-coder.jpg)
 
 I took the soul of the component source code—the logic that lists the modules and lessons—and channeled it into a module helper file. It was surprisingly straightforward to borrow the component's internal logic.  
 
