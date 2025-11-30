@@ -55,7 +55,7 @@ That was the dream... a sidebar on the right, showing every module and lesson, c
 
 So, I decided to go rogue. I realized the only way out was to fight fire with fire.
 
-I dove deep into the component code, followed the Joomla module tutorial, and began creating a module with the sole purpose of showing the course dashboard. Since Joomla\! doesn't offer a native way to show the output of a component in a module position, the only alternative was to create a module that did the job itself. So, one afternoon as I was sitting on the bench of the municipal pool—as my kids were splashing around in the water with their mother whilst under the watchful eyes of the lifeguard—I I**vibe coded**. 
+I dove deep into the component code, followed the Joomla module tutorial, and began creating a module with the sole purpose of showing the course dashboard. Since Joomla\! doesn't offer a native way to show the output of a component in a module position, the only alternative was to create a module that did the job itself. So, one afternoon as I was sitting on the bench of the municipal pool—as my kids were splashing around in the water with their mother whilst under the watchful eyes of the lifeguard—I**vibe coded** my way to a solution. 
 
 ![A very classic vibe coder](/brettvac.github.io/assets/vibe-coder.jpg)
 
