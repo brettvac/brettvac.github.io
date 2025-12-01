@@ -9,3 +9,6 @@ Display a signup form for Mailchimp that includes [tripwire functionality after 
 
 ### Implement a professional LMS
 Display online course content from the TF Learn component by ~~Techfry~~Joomla Fry inside a module, creating a [nice sidebar navigation](https://naftee.com/LMS-course-sidebar.html).
+
+### Embed videos directly into Joomla! articles without using Iframes
+Learn [how to display YouTube and Vimeo videos inside articles or modules using a shortcode](https://naftee.com/embed-video-without-iframe-Joomla.html). Show vids without iframes as fast-loading façades with the Lite Vid Embed content plugin for Joomla!.
