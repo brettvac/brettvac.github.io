@@ -12,3 +12,6 @@ Display online course content from the TF Learn component by ~~Techfry~~Joomla F
 
 ### Embed videos directly into Joomla! articles without using Iframes
 Learn [how to display YouTube and Vimeo videos inside articles or modules using a shortcode](https://naftee.com/embed-video-without-iframe-Joomla.html). Show vids without iframes as fast-loading façades with the Lite Vid Embed content plugin for Joomla!.
+
+### Embed a Dropbox Folder on a Joomla! website
+With this plugin, you can [easily embed a Dropbox folder directly in your Joomla! content](https://naftee.com/embed-dropbox-joomla-website.html) using a simple shortcode after creating an app.
