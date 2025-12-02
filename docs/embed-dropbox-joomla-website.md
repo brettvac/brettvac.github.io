@@ -64,7 +64,7 @@ And if I needed to fit a huge PDF into a specific spot on my layout? I just adde
 
 The plugin does the rest. It takes that simple text, injects the API key (which I made a plugin parameter, so no more hard-coding\!), adds the necessary Dropbox script to the page header automatically, and renders the container.
 
-So, what are you waiting for? Grab the plugin right now. You can use this URL: [https://github.com/brettvac/dropboxembed/releases/download/1.0/dropboxembed.zip](https://github.com/brettvac/dropboxembed/releases/download/1.0/dropboxembed.zip)
+So, what are you waiting for? Grab the plugin right now. You can use this URL: [https://github.com/brettvac/dropboxembed/releases/latest/download/dropboxembed.zip](https://github.com/brettvac/dropboxembed/releases/latest/download/dropboxembed.zip)
 
 ### **The Price of The Embedder**
 
