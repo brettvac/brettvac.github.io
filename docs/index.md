@@ -15,3 +15,6 @@ Learn [how to display YouTube and Vimeo videos inside articles or modules using 
 
 ### Embed a Dropbox Folder on a Joomla! website
 With this plugin, you can [easily embed a Dropbox folder directly in your Joomla! content](https://naftee.com/embed-dropbox-joomla-website.html) using a simple shortcode after creating an app.
+
+### Create A Message Box In Joomla!
+Use a quick and easy [module to display a message box that slides out on your Website](https://naftee.com/create-message-box-joomla) instead of a modal popup.
