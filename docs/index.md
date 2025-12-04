@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Free Extensions For Joomla! Versions 4 & Up
-description: How to use a Joomla! component and module to create a professional LMS with a course sidebar. 
 ---
 
 If you're here, I don't have to tell you that Joomla! is a powerful CMS with some glaring limitations. 
