@@ -1,6 +1,12 @@
-## Free Extensions For Joomla! Versions 4 & Up
+---
+layout: articles
+title: Free Extensions For Joomla! Versions 4 & Up
+description: How to use a Joomla! component and module to create a professional LMS with a course sidebar. 
+---
 
-Joomla! is a powerful CMS, great for displaying content but not much else. Far too often, <a href="https://brettvachon.com" target="_blank" rel="dofollow">I</a> found the need to write custom code for simple features to make my site more professional. Now I'm creating extensions to eliminate this frustration and just make my life easier. 
+If you're here, I don't have to tell you that Joomla! is a powerful CMS with some glaring limitations. 
+
+Joomla! is great for displaying content, but not much else. Far too often, <a href="https://brettvachon.com" target="_blank" rel="dofollow">I</a> have found the need to write custom code for simple features just to make my site more professional. Now I'm creating extensions to eliminate this frustration and just make my life easier. 
 
 So check out these amazing ways to blast your Joomla! site into orbit out of the Web 2.0 planet, with components, modules & plugins that hopefully inspire you to (mostly vibe) code extensions of your own without the [fear](https://naftee.com/list-of-phobias.html) of breaking your site.
 
