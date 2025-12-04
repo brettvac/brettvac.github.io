@@ -16,6 +16,8 @@ Every time I added a video to a page on my site, I saw performance take a heavy 
 
 Oh, and if you thought that was bad? It gets worse. Since the bulk of the traffic on my foreign language site is from Europe, don't even get me started on the GDPR headaches. Every time a user landed on a page with a YouTube video, I was practically forcing cookies down their throat before they even clicked play. It felt dirty. It felt wrong. And I couldn’t even offer them a glass of milk to make the medicine go down\!
 
+![A gamer dude sitting in front of his computer](/brettvac.github.io/assets/gamer-dude-with-water-bottle.jpg)
+
 ## **A better solution to video embedding without iframes**
 
 I needed a way out. I needed speed. I needed a solution that would let me share my video masterpieces without slowing my site to a crawl or breaking privacy laws.
@@ -26,9 +28,9 @@ And sure enough, I found others who had tried to solve the problem, but their to
 
 ### **Available options to avoid Iframes on Joomla\!**
 
-First, I stumbled upon the [**Facades Plugin**](https://brokenlinkchecker.dev/extensions/plg-system-facades). It promised to lazy load content, replacing the heavy iframe with a static element—a façade—that only loaded the real video when you clicked it. It sounded perfect, but when I tried to use it, it felt experimental, like it wasn't quite ready for the big leagues. It was a good attempt, but it didn't give me the control I craved.
+First, I stumbled upon the <a href="https://brokenlinkchecker.dev/extensions/plg-system-facades" target="_blank" rel="nofollow"><strong>Facades Plugin</strong></a>. It promised to lazy load content, replacing the heavy iframe with a static element—a façade—that only loaded the real video when you clicked it. It sounded perfect, but when I tried to use it, it felt experimental, like it wasn't quite ready for the big leagues. It was a good attempt, but it didn't give me the control I craved.
 
-Then I found [**Lite Youtube**](https://github.com/brianteeman/ytlite) by Brian Teeman. Brian is a legend in the Joomla\! world, so I had high hopes. His plugin was faster, cleaner. It did exactly what I wanted for YouTube videos. But I needed more. I needed something that would handle Vimeo too, and I wanted a specific workflow. 
+Then I found <a href="https://github.com/brianteeman/ytlite" target="_blank" rel="nofollow"><strong>Lite Youtube</strong></a> by Brian Teeman. Brian is a legend in the Joomla\! world, so I had high hopes. His plugin was faster, cleaner. It did exactly what I wanted for YouTube videos. But I needed more. I needed something that would handle Vimeo too, and I wanted a specific workflow. 
 
 Basically, I wanted to just throw a URL or a simple shortcode into my article and have it work like magic. I didn't want to fiddle with fields every single time I wanted to display a video. It was close, but no cigar.
 
@@ -36,13 +38,13 @@ I was getting desperate. I was about to give up and accept my slow, sluggish fat
 
 ## **Displaying Video Façades In Joomla Using Sourcerer**
 
-I discovered a secret weapon: [**Sourcerer**](https://regularlabs.com/sourcerer) by Regular Labs. This tool is a beast. It allows you to put raw code—PHP, JavaScript, CSS—right into your content. It was like being handed a loaded gun. I could do anything.
+I discovered a secret weapon: <a href="https://regularlabs.com/sourcerer" target="_blank" rel="nofollow"><strong>Sourcerer</strong></a>, a Joomla! component by Regular Labs. This tool is a beast. It allows you to put raw code—PHP, JavaScript, CSS—right into your content. It was like being handed a loaded gun. I could do anything.
 
 With Sourcerer in my bag of tricks, I went looking for the raw ingredients to build my own solution. 
 
-The first was [**Lite Youtube Embed**](https://github.com/paulirish/lite-youtube-embed) by Paul Irish. This guy is a wizard. He had written a script that renders a YouTube video faster than a sneeze. It loads a lightweight image—the façade—that looks exactly like the video player. When you click it, *boom*, it swaps in the real video. It’s brilliant. It saves all that heavy lifting for when the user actually wants to watch.
+The first was <a href="https://github.com/paulirish/lite-youtube-embed" target="_blank" rel="nofollow"><strong>Lite Youtube Embed</strong></a> by Paul Irish. This guy is a **wizard**. He had written a script that renders a YouTube video faster than a sneeze. It loads a lightweight image—the façade—that looks exactly like the video player. When you click it, *boom*, it swaps in the real video. It’s brilliant. It saves all that heavy lifting for when the user actually wants to watch.
 
-The second discovery was [**Lite Vimeo Embed**](https://github.com/chriswthomson/lite-vimeo-embed/) by Chris Thomson. It was the same concept but for Vimeo. I use Vimeo for my premium content, so this was a non-negotiable requirement.  
+The second discovery was <a href="https://github.com/chriswthomson/lite-vimeo-embed/" target="_blank" rel="nofollow"><strong>Lite Vimeo Embed</strong></a> by Chris Thomson. It was the same concept but for Vimeo. I use Vimeo for my premium content, so this was a non-negotiable requirement.  
 I had the tools. I had the "glue" (Sourcerer). I felt like a mad scientist. I started pasting these scripts directly into my articles using Sourcerer tags.
 
 It worked\! My pages were flying. The Google PageSpeed scores went through the roof. But then, reality hit me like a ton of bricks.
@@ -79,7 +81,7 @@ The result was breathtaking.
 
 ## **Embedding YouTube Videos In A Joomla\! Article Without Iframes Using Shortcodes**
 
-Using the [Lite Vid Embed content plugin](https://github.com/brettvac/Litevidembed), you can now write an article, throw in five or six video links, and the page would still load instantly. No more spinning wheels. No more waiting.
+Using the <a href="https://github.com/brettvac/Litevidembed" target="_blank" rel="nofollow">Lite Vid Embed content plugin</a>, you can now write an article, throw in five or six video links, and the page would still load instantly. No more spinning wheels. No more waiting.
 
 Just type something like {youtube}my-video-url{/youtube} or {vimeo}my-video-url{/vimeo}, and the plugin will do the heavy lifting.
 
@@ -88,10 +90,7 @@ Just type something like {youtube}my-video-url{/youtube} or {vimeo}my-video-url{
 And the best part? The GDPR aspect. Because these façades are just images until the user clicks, no cookies are set on the initial page load. The user decides when to engage. It’s respectful, it’s legal, and it’s fast.
 
 ## **Getting Lite Vid Embed**
-
-I had taken the best parts of the [**Lite Youtube Embed**](https://github.com/paulirish/lite-youtube-embed) and [**Lite Vimeo Embed**](https://github.com/chriswthomson/lite-vimeo-embed/), stripped away the complexity of [**Sourcerer**](https://regularlabs.com/sourcerer), and built something better than the [**Facades Plugin**](https://brokenlinkchecker.dev/extensions/plg-system-facades) or [**Lite Youtube**](https://github.com/brianteeman/ytlite) solutions I had tried before.
-
-I created a tool that supported multiple URL formats. It didn't care if I copied the link from the browser bar or the share button. It just worked. 
+Now, you finally have a tool to show videos on your sites that don't require iframes and that supports multiple URL formats, from multiple video hosting sites. Lite Vid Embed don't care if you copy the link from the browser bar or the share button. It'll just work. 
 
 I remember the first time I tested it on a live page. I hit refresh, bracing myself for the usual lag. But there was none. The content snapped into place. The video thumbnails were there, looking crisp and ready. I hovered over one... the play button reacted. I clicked it. The player loaded instantly and the video started. It was seamless. And brainless. It’s a no-brainer. Get Lite Vid Embed now here: [https://github.com/brettvac/Litevidembed/releases/latest/download/plg\_content\_litevidembed.zip](https://github.com/brettvac/Litevidembed/releases/latest/download/plg_content_litevidembed.zip)
 
