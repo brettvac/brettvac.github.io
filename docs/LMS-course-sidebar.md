@@ -24,6 +24,7 @@ By turning Joomla into a Learning Management System (LMS), I realized I could sa
 
 ## Getting an LMS running on Joomla!
 To get a Joomla\! Site set up as a badass solution to our course conundrum, we first need a LMS to display and manage the course content, and the heart of this entire operation is TF Learn. It’s a beast of a component, so to get it running, you first need to install not only the core TF Learn component into your site, but also the TF library.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JECgTlwJr10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Once you've installed TF Learn, the real work begins. You have to build the entire framework of knowledge—your entire course structure, perfectly laid out for your eager students. 
