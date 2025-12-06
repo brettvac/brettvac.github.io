@@ -13,6 +13,7 @@ Every creator knows that feeling when they look at their monthly bills. It almos
 ![A ridiculous pricing plan](https://upload.wikimedia.org/wikipedia/commons/7/70/Price.png "Image from Wikipedia")
 
 I wanted to own the ground I walked on—and to be honest, it took me a while to come to the conclusion that your moat around your business extends to the platform that you build it on.
+
 ## How I Got Here
 You see—when I started selling courses on Udemy, I realized I was caught in a digital cage. 
 
@@ -25,8 +26,11 @@ By turning Joomla into a Learning Management System (LMS), I realized I could sa
 To get a Joomla\! Site set up as a badass solution to our course conundrum, we first need a LMS to display and manage the course content, and the heart of this entire operation is TF Learn. It’s a beast of a component, so to get it running, you first need to install not only the core TF Learn component into your site, but also the TF library.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JECgTlwJr10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 Once it's installed, the real work begins. You have to build the entire framework of knowledge. 
+
 ### **Enter TF Learn**
-I went in and created my "Course" first—the big container for all the wisdom I wanted to share. Then, I broke that course down into manageable "Modules," which are like the chapters of a book. Finally, I populated those modules with the actual "Lessons"—the meat and potatoes of the learning experience. Take your time with this step, because you have to be organized here. If you build a house without a blueprint, it’s going to collapse. I added my content, my quizzes, and my videos. It felt good... the structure was solid.
+I went in and created my "Course" first—the big container for all the wisdom I wanted to share. Then, I broke that course down into manageable "Modules," which are like the chapters of a book. Finally, I populated those modules with the actual "Lessons"—the meat and potatoes of the learning experience. 
+
+Take your time with this step, because you have to be organized here. If you build a house without a blueprint, it’s going to collapse. I added my content, my quizzes, and my videos. It felt good... the structure was solid.
 
 ### **Getting Your First Students**
 But a school is useless without students. I had built a beautiful classroom, but the doors were locked, and the mailman was on strike (being from Quebec, Canada, I know what I’m talking about). I had to configure Joomla to let the students through the door, or I would be running a ghost school and talking to myself. 
@@ -41,21 +45,34 @@ Here is where the drama started. TF Learn is a powerful, flexible, and truly use
 
 ![Clickfunnels course dashboard view](https://chriseggleston.com/wp-content/uploads/2019/07/Laptop-image-SF-Mastery.png "Look at this funnel guru's course dashboard. Nice sidebar!")
 
-The navigation was a nightmare. Users would finish a lesson, go to complete a test and then wander aimlessly, looking for the next step. It felt like walking through a dense fog. Recent versions of TF Learn have helped by adding a simple dashboard button, but it was like putting a band-aid on a broken leg. It just wasn't enough. The students needed a map. They needed to see where they were going and where they had been. The default setup just didn't offer an easy way to navigate around the courses, and I needed to step up and offer a solution.
+The navigation was a nightmare. Users would finish a lesson, go to complete a test and then wander aimlessly, looking for the next step. It felt like walking through a dense fog. Recent versions of TF Learn have helped by adding a simple dashboard button, but it was like putting a band-aid on a broken leg. 
+
+It just wasn't enough. The students needed a map. 
+
+They needed to see where they were going and where they had been. The default setup just didn't offer an easy way to navigate around the courses, and I needed to step up and offer a solution.
 
 ## **The Backstory: Chasing the Ghost in the Machine**
 
-I was first alerted to the problem of my students drowning in a sea of confusion through a dreaded refund request—my student felt he was wandering aimlessly, lost in a digital maze without a map. I had built a titan of a learning platform using TF Learn, but something was missing. The engine was roaring, but there was no steering wheel.  
+I was first alerted to the problem of my students drowning in a sea of confusion through a dreaded refund request—my student felt he was wandering aimlessly, lost in a digital maze without a map. I had built a titan of a learning platform using TF Learn, but something was missing. 
 
-I closed my eyes and pictured the holy grail of course navigation. I imagined the sleek, professional look of the big players. I wanted a sidebar that hugged the screen, guiding the student like a lighthouse in a storm. I wanted it to look like those high-converting platforms that I had longed to escape—those that make millions of the backs of their users and course creators.  
+### Imagining a real course dashboard for Joomla!
+I closed my eyes and pictured the holy grail of course navigation. I imagined the sleek, professional look of the big players. I wanted a sidebar that hugged the screen, guiding the student like a lighthouse in a storm. I wanted it to look like those high-converting platforms that I had longed to escape—those that make millions of the backs of their users and course creators.
 
-That was the dream... a sidebar on the right, showing every module and lesson, crystal clear like the pros do it. But Joomla, in its stubborn glory, wouldn't let me simply throw the component output into a module position. I was backed into a corner. The default "dashboard" button just wasn't enough—I needed a way to show the map *while* they were walking the path, not just at the start of the course.
+![A laptop screen mockup showing a LMS with a video course, simple top menu and sidebar with an accordion showing the course lessons.](/brettvac.github.io/assets/LMS-video-course-delivery.jpg)
+
+That was the dream—a sidebar on the right, showing every module and lesson, crystal clear like the pros do it. But Joomla, in its stubborn glory, wouldn't let me simply throw the component output into a module position. 
+
+The problem was, the TF Learn component didn't offer this functionality at all, even though all the pro LMS options ship with it. So, I was backed into a corner. 
+
+The default "dashboard" button just wasn't enough—I needed a way to show the map *while* they were walking the path, not just at the start of the course.
 
 ### **Vibe Coding the Solution**
 
 So, I decided to go rogue. I realized the only way out was to fight fire with fire.
 
-I dove deep into the component code, followed the Joomla module tutorial, and began creating a module with the sole purpose of showing the course dashboard. Since Joomla\! doesn't offer a native way to show the output of a component in a module position, the only alternative was to create a module that did the job itself. So, one afternoon as I was sitting on the bench of the municipal pool—as my kids were splashing around in the water with their mother whilst under the watchful eyes of the lifeguard—I**vibe coded** my way to a solution. 
+I dove deep into the component code, followed the Joomla module tutorial, and began creating a module with the sole purpose of showing the course dashboard. Since Joomla\! doesn't offer a native way to show the output of a component in a module position, the only alternative was to create a module that did the job itself. 
+
+So, one afternoon as I was sitting on the bench of the municipal pool—as my kids were splashing around in the water with their mother whilst under the watchful eyes of the lifeguard—I**vibe coded** my way to a solution. 
 
 ![A very classic vibe coder](/brettvac.github.io/assets/vibe-coder.jpg)
 
