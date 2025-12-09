@@ -45,8 +45,9 @@ I set out to *vibe*\-code a solution that would take a simple shortcode with a l
 
 The result—I created the <a href="https://github.com/brettvac/Dropboxembed" target="_blank">Dropbox Embed Joomla! Content Plugin</a>
 
-Here is the magic syntax I created:  
-{dropbox}DROPBOX\_LINK|HEIGHT|WIDTH{/dropbox}
+Here is the magic syntax I came up with, to embed a Dropbox folder or file directly in your Joomla! article.
+
+`{dropbox}DROPBOX\_LINK|HEIGHT|WIDTH{/dropbox}`
 
 Now, instead of wrestling with HTML and script tags, I could simply type this to show a folder:
 
