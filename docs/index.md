@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Free Extensions For Joomla! Versions 4 & Up
+description: Free extensions to enhance Joomla! 4+ websites with features like tripwire funnels, video or document embedding, and more.
 ---
 
 If you're here, I don't have to tell you that Joomla! is a powerful CMS with some glaring limitations. 
