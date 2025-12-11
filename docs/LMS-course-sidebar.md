@@ -1,10 +1,9 @@
 ---
 layout: articles
-description: How to use a Joomla! component and module to create a professional LMS with a course sidebar. 
+title: How To Create A Professional Looking LMS Course Display With Sidebar on Joomla!
+description: How to use a Joomla! component and custom module to create a professional looking LMS with a visual sidebar. 
 ---
-
-# Create A Pro LMS Course Display With Sidebar
-So you want to create and launch your first course. But—you’ve looked at the tools available online and—honestly, the options are not great for first timers. 
+So you want to create and launch your first online course, and you love the look of the professional LMS with a sidebar for easy course navigation. But—you’ve looked at the tools available online and—honestly, the options are not great for first timers. 
 
 If you don’t have an audience of **thousands** of raving followers, you may not be sure you’ll sell anything in the first 30 days before the trial period expires and the $89 a month price tag kicks in. Sheesh\!
 
@@ -19,11 +18,12 @@ You see—when I started selling courses on Udemy, I realized I was caught in a 
 
 Sure, the platform worked great—it allowed me to publish and sell my very first online course free of charge, and the platform provided me with my first customers, after taking a hefty chunk of the tuition fee. But that was it, and I quickly fell out of love with Udemy. The company won’t even give you the e-mail addresses of your customers, and you’re seriously limited in the content that you *are* allowed to send them—no promotions outside of the platform, only educational content, etc.
 
-So, I decided I was going to escape from the walled garden, aka Big Skool. I needed a fortress, not a rental property. That’s why I turned to Joomla. It’s open-source, it’s free, and my site was already running on it anyway.   
+So, I decided I was going to escape from the walled garden, aka Big Skool. I needed a fortress, not a rental property. That’s why I turned to Joomla. It’s open-source, it’s free, and my site was already running on it anyway.
+
 By turning Joomla into a Learning Management System (LMS), I realized I could save a fortune on monthly fees and have total control over the entire process that my students would go through—ensuring that I was insured against any future POS changes to those platforms’ TOS.
 
 ## Getting an LMS running on Joomla!
-To get a Joomla\! Site set up as a badass solution to our course conundrum, we first need a LMS to display and manage the course content, and the heart of this entire operation is TF Learn. It’s a beast of a component, so to get it running, you first need to install not only the core TF Learn component into your site, but also the TF library.
+To get a Joomla\! Site set up as a badass solution to our course conundrum, we first need a LMS to display and manage the course content, and the heart of this entire operation is <a href="https://joomlafry.com/joomla-extensions/learn-joomla-extension" target="_blank" rel="noopener">TF Learn</a>, now just called the **Learn** extension. It’s a beast of a component, so to get it running, you first need to install not only the core extension, but also the TF library.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JECgTlwJr10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -84,7 +84,7 @@ It was a risky move, but it worked\!. I pulled the completion data, the lesson t
 
 ### **Installation and Use of the Module**
 
-Now, let me hand you the keys to the kingdom. Here is exactly how you can install the [TF Learnpath module](https://github.com/brettvac/TfLearnpath) and saved your LMS from absolute chaos. You can find this digital treasure chest at [the latest release link here](https://github.com/brettvac/TFLearnpath/releases/latest/download/mod_tflearnpath.zip).
+Now, let me hand you the keys to the kingdom. Here is exactly how you can install the [TF Learnpath module](https://github.com/brettvac/TfLearnpath) and saved your LMS from absolute chaos. You can find this digital treasure chest at the latest release link here: [https://github.com/brettvac/TFLearnpath/releases/latest/download/mod_tflearnpath.zip](https://github.com/brettvac/TFLearnpath/releases/latest/download/mod_tflearnpath.zip).
 
 First, you must ensure you have the TF Learn component installed with courses already built, or else you are fighting a ghost. You also need the TechFry Library to make the magic happen.   
 Then, take your special package and go to the Joomla Extension Manager. Put your package in there so it can install. The module is very smart\! It will look for the TechFry Library. If the helper isn't there, it will tell you right away.
@@ -100,4 +100,4 @@ Tell it how to line up the lessons, from first to last. Set the lesson order, so
 ## **Test Everything Out**
 When you're all done, look at your website. See how nice it looks? You did it\! The learning path is there, organized and clean. The module shows the course title, followed by modules and their lessons, all linked directly to their pages. It even handles **Access Restrictions** flawlessly, showing a lock icon if the user hasn't completed the necessary prerequisites. Your students will no longer be lost.
 
-Of course, we need to talk about the treasure. You aren't running a charity—you're building an empire, one course at a time. You need to get paid, and for that, you’re going to need a solution. I recommend Hikashop because it’s a cinch to get the component to work with TF Learn, as long as you have the group plugin.
+Of course, we need to talk about the treasure. You aren't running a charity—you're building an empire, one course at a time. You need to get paid, and for that, you’re going to need a solution. I recommend Hikashop because it’s a cinch to get the component to work with TF Learn, as long as you have the <a href="https://github.com/brettvac/hikashop-user-group" target="_blank">group plugin</a>.
