@@ -1,7 +1,7 @@
 title: Welcome to naftee.com (brettvac.github.io)
 description: Joomla! extensions to make your life easier as an authority with a money site
-url: ""
-baseurl: ""
+url: "./"
+baseurl: "./"
 github_username: brettvac
 author:
   name: "Brett Vachon"
