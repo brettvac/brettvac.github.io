@@ -16,7 +16,7 @@ A tripwire sales funnel, also known as an <a href="https://www.milesbeckler.com/
 ### Example Landing Page
 Here's what a landing page, or the first step in a tripwire sales funnel, might look like. 
 
-![An example of a sales page from a funnel]{{ '/assets/Sales-page-example.png' | relative_url }}
+![An example of a sales page from a funnel]({{ '/assets/Sales-page-example.png' | relative_url }})
 
 In other words, the first page of a tripwire sales funnel requests something simple, usually an e-mail address, and if the user successfully inputs the information, the user is immediately hit with a paid offer, in the form of a sales page.
 
