@@ -40,7 +40,7 @@ Go to Content \> Articles, and create a new article. This is where you'll put th
 
 You can also add a product image mockup as a main article image, to enhance your landing page and increase conversions.
 
-![Create a Joomla article]{{ '/assets/Joomla-article-creation.png' | relative_url }}
+![Create a Joomla article]({{ '/assets/Joomla-article-creation.png' | relative_url }})
 
 Then, go to Menus \> Main Menu (or whatever menu you like) and create a menu item that points directly to the article.
 
@@ -67,11 +67,11 @@ The Sign Up Chimp module is a custom module that publishes a form to collect e-m
 
 Install the latest version of the Sign Up Chimp Module on your Joomla! site by going to Extensions: Install and using this URL: [https://github.com/brettvac/signupchimp/releases/latest/download/mod_signupchimp.zip](https://github.com/brettvac/signupchimp/releases/latest/download/mod_signupchimp.zip).
 
-![Install the Sign Up Chimp Module]{{ '/assets/Sign-up-chimp-installation.png' | relative_url }}
+![Install the Sign Up Chimp Module]({{ '/assets/Sign-up-chimp-installation.png' | relative_url }})
 
 Next, you'll want to go to Content \> Modules and select Sign Up Chimp. This is where you'll enter your credentials from MailChimp, optionally add tags to your subscribed contacts, and, crucially, set a redirect after successful subscription.
 
-![Configure the Sign Up Chimp Module]{{ '/assets/Sign-up-chimp-configuration.png' | relative_url }}
+![Configure the Sign Up Chimp Module]({{ '/assets/Sign-up-chimp-configuration.png' | relative_url }})
 
 You'll want to set the redirect to your sales page offer, of course, not <a href="https://naftee.com/list-of-phobias.html">a silly page containing a list of phobias</a>.
 
