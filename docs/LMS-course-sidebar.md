@@ -16,7 +16,11 @@ I wanted to own the ground I walked on—and to be honest, it took me a while to
 ## How I Got Here
 You see—when I started selling courses on Udemy, I realized I was caught in a digital cage. 
 
-Sure, the platform worked great—it allowed me to publish and sell my very first online course free of charge, and the platform provided me with my first customers, after taking a hefty chunk of the tuition fee. But that was it, and I quickly fell out of love with Udemy. The company won’t even give you the e-mail addresses of your customers, and you’re seriously limited in the content that you *are* allowed to send them—no promotions outside of the platform, only educational content, etc.
+Sure, the platform worked great—it allowed me to publish and sell my very first online course free of charge, and the platform provided me with my first customers, after taking a hefty chunk of the tuition fee. 
+
+But that was it, and I quickly fell out of love with Udemy. 
+
+The company won’t even give you the e-mail addresses of your customers, and you’re seriously limited in the content that you *are* allowed to send them—no promotions outside of the platform, only educational content, etc.
 
 So, I decided I was going to escape from the walled garden, aka Big Skool. I needed a fortress, not a rental property. That’s why I turned to Joomla. It’s open-source, it’s free, and my site was already running on it anyway.
 
@@ -30,18 +34,22 @@ To get a Joomla\! Site set up as a badass solution to our course conundrum, we f
 Once you've installed TF Learn, the real work begins. You have to build the entire framework of knowledge—your entire course structure, perfectly laid out for your eager students. 
 
 ### **Configure TF Learn For The Ultimate Learning Experience**
-Here's how I configured TF Learn. First, I went in and created my "Course" first—the big container for all the wisdom I wanted to share. Then, I broke that course down into manageable "Modules," which are like the chapters of a book. Finally, I populated those modules with the actual "Lessons"—the meat and potatoes of the learning experience. 
+Here's how I configured TF Learn. 
+
+First, I went in and created my "Course" first—the big container for all the wisdom I wanted to share. Then, I broke that course down into manageable "Modules," which are like the chapters of a book. Finally, I populated those modules with the actual "Lessons"—the meat and potatoes of the learning experience. 
 
 Take your time with this step, because you have to be organized here. If you build a house without a blueprint, it’s going to collapse. I added my content, my quizzes, and my videos. It felt good... the structure was solid.
 
-### **Getting Your First Students**
+### Getting Your First Students
 But a school is useless without students. I had built a beautiful classroom, but the doors were locked, and the mailman was on strike (being from Quebec, Canada, I know what I’m talking about). I had to configure Joomla to let the students through the door, or I would be running a ghost school and talking to myself. 
 
-First, you’ll go into the **Global Configuration**. You may need to fix the Mail settings under the **Server** tab, so your students can get their login information. If the system can't send emails, your students will never get their passwords, and you’ll be lecturing into the void. I set up my SMTP details to ensure every email hit the inbox, not the spam folder, because every communication is a piece of gold.
+First, you’ll go into the **Global Configuration**. You may need to fix the Mail settings under the **Server** tab, so your students can get their login information. 
+
+If the system can't send emails, your students will never get their passwords, and you’ll be lecturing into the void. I set up my SMTP details to ensure every email hit the inbox, not the spam folder, because every communication is a piece of gold.
 
 Next, I went to the **Users** configuration. By default, your Joomla installation might keep the gates closed, so toggle "Allow User Registration" to **Yes**. I also set the "New User Account Activation" to "Self" so they could verify their own emails. Now, the gates were open. The students could finally enroll.
 
-### **Strengths and Problems with TF Learn**
+### Strengths and Problems with TF Learn
 
 Here is where the drama started. TF Learn is a powerful, flexible, and truly user-friendly Joomla component. It’s designed to integrate a full-featured Learning Management System right into your site. Whether you are running an educational institution, selling online courses, or providing employee training, this component gives you all the tools you need to manage courses with ease. It's a Ferrari engine... but I realized it had no steering wheel.
 
@@ -60,7 +68,7 @@ I was first alerted to the problem of my students drowning in a sea of confusion
 ### Imagining a real course dashboard for Joomla!
 I closed my eyes and pictured the holy grail of course navigation. I imagined the sleek, professional look of the big players. I wanted a sidebar that hugged the screen, guiding the student like a lighthouse in a storm. I wanted it to look like those high-converting platforms that I had longed to escape—those that make millions of the backs of their users and course creators.
 
-![A laptop screen mockup showing a LMS with a video course, simple top menu and sidebar with an accordion showing the course lessons.](/brettvac.github.io/assets/LMS-video-course-delivery.jpg)
+![A laptop screen mockup showing a LMS with a video course, simple top menu and sidebar with an accordion showing the course lessons.]({{ '/assets/LMS-video-course-delivery.jpg' | relative_url }})
 
 That was the dream—a sidebar on the right, showing every module and lesson, crystal clear like the pros do it. But Joomla, in its stubborn glory, wouldn't let me simply throw the component output into a module position. 
 
@@ -68,7 +76,7 @@ The problem was, the TF Learn component didn't offer this functionality at all, 
 
 The default "dashboard" button just wasn't enough—I needed a way to show the map *while* they were walking the path, not just at the start of the course.
 
-### **Vibe Coding the Solution**
+### Vibe Coding the Solution
 
 So, I decided to go rogue. I realized the only way out was to fight fire with fire.
 
@@ -76,7 +84,7 @@ I dove deep into the component code, followed the Joomla module tutorial, and be
 
 So, one afternoon as I was sitting on the bench of the municipal pool—as my kids were splashing around in the water with their mother whilst under the watchful eyes of the lifeguard—I**vibe coded** my way to a solution. 
 
-![A very classic vibe coder](/brettvac.github.io/assets/vibe-coder.jpg)
+![A very classic vibe coder]({{ '/assets/vibe-coder.jpg' | relative_url }})
 
 I took the soul of the component source code—the logic that lists the modules and lessons—and channeled it into a module helper file. It was surprisingly straightforward to borrow the component's internal logic.  
 
@@ -86,7 +94,8 @@ It was a risky move, but it worked\!. I pulled the completion data, the lesson t
 
 Now, let me hand you the keys to the kingdom. Here is exactly how you can install the [TF Learnpath module](https://github.com/brettvac/TfLearnpath) and saved your LMS from absolute chaos. You can find this digital treasure chest at the latest release link here: [https://github.com/brettvac/TFLearnpath/releases/latest/download/mod_tflearnpath.zip](https://github.com/brettvac/TFLearnpath/releases/latest/download/mod_tflearnpath.zip).
 
-First, you must ensure you have the TF Learn component installed with courses already built, or else you are fighting a ghost. You also need the TechFry Library to make the magic happen.   
+First, you must ensure you have the TF Learn component installed with courses already built, or else you are fighting a ghost. You also need the TechFry Library to make the magic happen.
+ 
 Then, take your special package and go to the Joomla Extension Manager. Put your package in there so it can install. The module is very smart\! It will look for the TechFry Library. If the helper isn't there, it will tell you right away.
 
 Now, go to the Module Manager. Find your new module called "TF Learnpath" and open it up. You need to give it the ID number for your class.
@@ -97,7 +106,7 @@ Make sure you turn it on so everyone can see it\! Then, pick a spot for it to li
 
 Tell it how to line up the lessons, from first to last. Set the lesson order, sorting by the lesson ordering field in ascending direction. Customize the icons by choosing a regular square for incomplete lessons and a sharp lock icon for the forbidden ones.
 
-## **Test Everything Out**
+## Test Everything Out
 When you're all done, look at your website. See how nice it looks? You did it\! The learning path is there, organized and clean. The module shows the course title, followed by modules and their lessons, all linked directly to their pages. It even handles **Access Restrictions** flawlessly, showing a lock icon if the user hasn't completed the necessary prerequisites. Your students will no longer be lost.
 
 Of course, we need to talk about the treasure. You aren't running a charity—you're building an empire, one course at a time. You need to get paid, and for that, you’re going to need a solution. I recommend Hikashop because it’s a cinch to get the component to work with TF Learn, as long as you have the <a href="https://github.com/brettvac/hikashop-user-group" target="_blank">group plugin</a>.
