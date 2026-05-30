@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: articles
 title: List Of Phobias
-description: Possibly useful list of phobias in alphabetical order
+description: A possibly useful list of phobias in alphabetical order.
 ---
 
 <A HREF="#A">A</A>
