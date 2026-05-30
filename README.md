@@ -1,1 +1,1 @@
-Welcome to my incredible [Github page](https://brettvac.github.io)
+Welcome to my incredible [Github page. Check it out](https://brettvac.github.io)!
